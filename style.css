@@ -1,0 +1,47 @@
+:root {
+    --main-font: "Poppins", Arial, sans-serif;
+    --alternative-font: "Lora", Arial, sans-serif;
+    --primary-color: #3B1D4A;
+    --alt-primary-color: #6A2E6B;
+    --complementary-color: #C8A951;
+    --alt-complementary-color: #B08968;
+}
+
+body {
+    font-family: var(--main-font);
+    background-color: var(--primary-color);
+    color: var(--complementary-color);
+    text-align: center;
+}
+
+#navigation-menu {
+    border: 3px solid var(--complementary-color);
+    padding: 5px;
+}
+
+#name {
+    text-decoration: underline;
+    text-shadow: 
+    2px 2px rgba(252, 206, 22, 0.3),
+    -2px 2px rgba(252, 206, 22, 0.3);
+}
+
+#subject {
+    width: 12rem;
+    height: 200px;
+    border: 2px solid var(--alt-complementary-color);
+    border-radius: 25px;
+}
+
+#logo {
+    position: absolute;
+    right: 37rem;
+    width: 7rem;
+    height: 7rem;
+    border-radius: 100px;
+}
+
+.subtext {
+    font-family: var(--alternative-font);
+    color: var(--alt-complementary-color);
+}
